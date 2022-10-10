@@ -1,20 +1,3 @@
-# personality-tests
+# 개인 맞춤 심리테스트 서비스 v2
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# my-personality-test-v2
+## 개선 사항
