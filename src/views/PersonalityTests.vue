@@ -3,13 +3,14 @@
         <p class="title-700"> 심리테스트 목록</p>
         <p> 당신을 위한 재밌고, 쉬운 심리테스트입니다.</p>
     </div>
+    <button class="button is-primary is-rounded" style="float: right; right: 2.5%">+ 테스트 추가하기</button><br>
     <hr class="border-line">
     <div class="items">
         <Card/>
         <Card/>
         <Card/>
         <Card/>
-    </div>
+    </div> 
 </template>
 
 <style scoped>

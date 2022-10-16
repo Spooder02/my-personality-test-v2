@@ -8,8 +8,8 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
+    path: '/introduce',
+    name: 'introduce',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -19,6 +19,11 @@ const routes = [
     path: '/personality-tests',
     name: 'personality-tests',
     component: require('@/views/PersonalityTests.vue').default
+  },
+  {
+    path: '/chatbot-test',
+    name: 'chatbot-test',
+    component: require('@/views/ChatbotTest.vue').default
   }
 
 ]
