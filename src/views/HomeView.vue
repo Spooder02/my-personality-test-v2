@@ -25,10 +25,18 @@
       <span class="dot" v-on:click="currentSlide(2)"></span> 
       <span class="dot" v-on:click="currentSlide(3)"></span> 
     </div>
+    <div class="main-contents">
+      <hr class="main-border">
+      <h1 class="title-500">안녕하세요, RD입니다!</h1>
+    </div>
   </div>
 </template>
 
 <style>
+@import '@/css/index.css';
+.home {
+  display: block;
+}
 .mySlides {display: none}
 
 img {vertical-align: middle;}
