@@ -27,7 +27,7 @@
 			심리테스트
 		  </p>
       </router-link>
-	  <router-link to="/chatbot-test" class="navbar-item">
+	  <router-link to="/chatbot" class="navbar-item">
         <p>
 			챗봇 심리테스트	
 		</p>

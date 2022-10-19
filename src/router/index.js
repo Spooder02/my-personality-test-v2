@@ -21,11 +21,15 @@ const routes = [
     component: require('@/views/PersonalityTests.vue').default
   },
   {
+    path: '/chatbot',
+    name: 'chatbot',
+    component: require('@/views/ChatbotTest.vue').default
+  },
+  {
     path: '/chatbot-test',
     name: 'chatbot-test',
-    component: require('@/views/ChatbotTest.vue').default
+    component: require('@/views/ChatView.vue').default
   }
-
 ]
 
 const router = createRouter({
