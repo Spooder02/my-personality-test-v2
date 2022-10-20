@@ -17,13 +17,25 @@
     font-size: 40px;
 }
 
-h1 .title-500 {
-    text-align: center;
-    font-weight: 500;
-    font-size: 40px;
-}
-
 .main-border {
     height: 5px;
     width: 80%;
+}
+
+.main-bar {
+    margin: auto;
+    width: 80%;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #a5a5a5;
+    
+}
+
+.items {
+    padding: 2.5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
 }

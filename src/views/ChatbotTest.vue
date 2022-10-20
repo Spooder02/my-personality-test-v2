@@ -1,25 +1,22 @@
 <template>
-    <hr>
-    <div class="card">
-        <div class="card-content">
-            <img src="https://bulma.io/images/placeholders/1280x960.png">
-            <p class="title" style="padding-top: 10px">채팅봇 이름</p>
-            <p class="subtitle">심리테스트 도우미</p>
+    <div id="wrapper" class="divided">
+    <section  class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+        <div class="content">
+            <h1>채팅 봇</h1>
+            <p class="major">간단한 채팅을 통해 자신의 심리 상태를 알아 보세요.</p>
+            <ul class="actions stacked">
+                <li><router-link to="/chatbot-test" class="button big wide smooth-scroll-middle">시작하기</router-link></li>
+            </ul>
         </div>
-        <footer class="card-footer">
-        <router-link class="card-footer-item" to="/chatbot-test">
-                시작하기
-        </router-link>
-        </footer>
+        <div class="image">
+            <img style="padding-left: 5px;" src="@/assets/bot-character.png">
+        </div>
+    </section>
     </div>
     <br>
 </template>
 
-<style scoped>
-    @import '@/css/bulma.css';
-    p {
-        text-align: center;
-    }
+<style scoped src="@/css/chatbot.css">
 </style>
 
 <script>

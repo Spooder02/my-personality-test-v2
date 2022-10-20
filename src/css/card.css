@@ -18,6 +18,10 @@
       Card
 ---------------*/
 
+.test-item {
+  padding: 2%;
+}
+
 .ui.cards > .card,
 .ui.card {
   max-width: 100%;

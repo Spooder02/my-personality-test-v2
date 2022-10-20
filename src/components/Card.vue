@@ -24,8 +24,7 @@
 </div>
 </template>
 
-<style scoped>
-    @import '@/css/card.css';
+<style lang="css" src="@/css/card.css" scoped>
 </style>
 
 <script>

@@ -226,7 +226,7 @@ fieldset[disabled] .pagination-ellipsis {
   border: none;
   color: currentColor;
   font-family: inherit;
-  font-size: 1em;
+  font-size: 2em;
   margin: 0;
   padding: 0;
 }
@@ -6100,23 +6100,24 @@ body.has-navbar-fixed-bottom {
   border: none;
   cursor: pointer;
   display: block;
-  height: 3.25rem;
+  height: 5rem;
   position: relative;
-  width: 3.25rem;
+  width: 5rem;
+  margin-top: auto;
   margin-left: auto;
 }
 
 .navbar-burger span {
   background-color: currentColor;
   display: block;
-  height: 1px;
+  height: 2px;
   left: calc(50% - 8px);
   position: absolute;
   transform-origin: center;
   transition-duration: 86ms;
   transition-property: background-color, opacity, transform;
   transition-timing-function: ease-out;
-  width: 16px;
+  width: 20px;
 }
 
 .navbar-burger span:nth-child(1) {

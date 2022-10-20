@@ -10,7 +10,7 @@
     </footer>
 </template>
 
-<style>
+<style scoped>
   @import '@/css/bulma.css';
   
   footer {

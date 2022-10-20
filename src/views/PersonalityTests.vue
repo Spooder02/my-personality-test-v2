@@ -13,16 +13,7 @@
     </div> 
 </template>
 
-<style scoped>
-    @import '@/css/index.css';
-    .items {
-        padding: 3%;
-        margin-top: 3%;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        align-content: space-between;
-    }
+<style lang="css" src="@/css/index.css" scoped>
 </style>
 
 <script>

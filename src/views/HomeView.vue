@@ -4,17 +4,17 @@
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
       <img src="https://s3.ap-northeast-2.amazonaws.com/event-localnaeil/FileData/Article/202104/fcb5b7b3-a72e-4cdd-8d07-0f9675912284.jpg" style="width:100%">
-      <div class="text">Caption Text</div>
+      <div class="text">Page 1</div>
     </div>
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
       <img src="https://s3.ap-northeast-2.amazonaws.com/event-localnaeil/FileData/Article/202104/fcb5b7b3-a72e-4cdd-8d07-0f9675912284.jpg" style="width:100%">
-      <div class="text">Caption Two</div>
+      <div class="text">Page 2</div>
     </div>
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
       <img src="https://thumb.zumst.com/530x0/https://static.news.zumst.com/images/12/2022/05/10/2aaf45754ea64db989012e6d4a5dfef0.jpg" style="width:100%">
-      <div class="text">Caption Three</div>
+      <div class="text">Page 3</div>
     </div>
     <a class="prev" v-on:click="plusSlides(-1)">❮</a>
     <a class="next" v-on:click="plusSlides(1)">❯</a>
@@ -26,13 +26,16 @@
       <span class="dot" v-on:click="currentSlide(3)"></span> 
     </div>
     <div class="main-contents">
-      <hr class="main-border">
-      <h1 class="title-500">안녕하세요, RD입니다!</h1>
+      <hr>
+      <p class="title-700" style="text-align: center;">안녕하세요, RD입니다!</p>
+      <div class="main-bar"></div>
+      <p style="text-align: center;">심리테스트를 보다 쉽고, 간단하게 즐길 수 있는 심리테스트를 준비했습니다</p>
     </div>
+    <br>
   </div>
 </template>
 
-<style>
+<style scoped>
 @import '@/css/index.css';
 .home {
   display: block;

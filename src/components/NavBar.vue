@@ -39,8 +39,7 @@
 </nav>
 </template>
 
-<style scoped>
-    @import '../css/bulma.css';
+<style lang="css" src="@/css/bulma.css" scoped>
 </style>
 
 <script>
