@@ -7,7 +7,7 @@
           <Introduce name="김도형" position="어플리케이션 개발자 / 심리테스트 구성위원" email="travis48@rdcorp.co.kr" intro="Don't judge the book by its cover"/>          
           <Introduce name="손현진" position="프로젝트 기획자 / 챗봇 구성위원" email="hyunjin214@rdcorp.co.kr" intro="Pleasure in the job puts perfection in the work."/>
           <Introduce name="임서준" position="프로젝트 기획자 / 챗봇 구성위원" email="limseojune@rdcorp.co.kr" intro=""/>
-          <Introduce name="손동우" position="백엔드 개발자" email="notpetya@rdcorp.co.kr" intro=""/>
+          <Introduce name="손동우" position="백엔드 개발자" email="notpetya@rdcorp.co.kr" intro="최고를 위해 최선을"/>
         </div>
     </section>
   </div>
