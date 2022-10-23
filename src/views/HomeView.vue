@@ -3,7 +3,7 @@
     <div class="slideshow-container">
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
-      <img src="https://s3.ap-northeast-2.amazonaws.com/event-localnaeil/FileData/Article/202104/fcb5b7b3-a72e-4cdd-8d07-0f9675912284.jpg" style="width:100%">
+      <img src="@/assets/main-banner1.png" style="width:100%">
       <div class="text">Page 1</div>
     </div>
     <div class="mySlides fade">

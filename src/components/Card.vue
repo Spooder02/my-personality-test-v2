@@ -8,7 +8,7 @@
     <div class="content">
       <div class="header">{{ TestName }}</div>
       <div class="meta">
-        <a>{{ Author }}</a>
+        <a>제작 : {{ Author }}</a>
       </div>
       <div class="description">
         {{ Description }}
@@ -16,7 +16,7 @@
     </div>
     <div class="extra content">
       <span class="right floated">
-        {{ CreatedDate }}
+        {{ CreatedDate }} 에 제작됨
       </span>
     </div>
   </div>
