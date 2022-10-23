@@ -12,12 +12,13 @@
 </style>
 
 <script>
+
   import NavBar from '@/components/NavBar.vue';
   import FooterView from '@/components/Footer.vue';
   export default {
     components: {
       NavBar,
       FooterView
-    }
+    },
   }
 </script>

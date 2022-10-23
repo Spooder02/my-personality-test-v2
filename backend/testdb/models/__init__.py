@@ -1,2 +1,2 @@
 from .common import *
-from .testlist import *
+from .testInfo import *

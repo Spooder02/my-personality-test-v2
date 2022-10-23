@@ -1,6 +1,6 @@
 <template>
     <section class="spotlight">
-        <div class="image"><img src="@/assets/pic01.jpg"></div>
+        <div class="image"><img :src="require('@/assets/'+profile)"></div>
             <div class="content">
             <h3>{{ name }}</h3>
             <p>{{ position }}  {{ email }}</p>
@@ -17,6 +17,7 @@
         name: "about",
         props: {
             name: String,
+            profile: String,
             position: String,
             email: String,
             intro: String

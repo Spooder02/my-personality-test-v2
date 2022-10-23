@@ -33,13 +33,11 @@
         components: {
 
         },
-        data() {
-            return{
-                TestName: "테스트명",
-                Author: "테스트 제작자명",
-                Description: "테스트에 대한 설명을 적는 곳.",
-                CreatedDate: "0000/00/00 제작"
-            }
+        props: {
+          TestName: String,
+          Author: String,
+          Description: String,
+          CreatedDate: String
         }
     }
 </script>

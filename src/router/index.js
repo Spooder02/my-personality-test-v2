@@ -29,6 +29,11 @@ const routes = [
     path: '/chatbot-test',
     name: 'chatbot-test',
     component: require('@/views/ChatView.vue').default
+  },
+  {
+    path: '/create-testinfo',
+    name: 'create-testinfo',
+    component: require('@/views/CreateInfo.vue').default
   }
 ]
 

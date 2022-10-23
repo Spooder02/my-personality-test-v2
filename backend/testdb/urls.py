@@ -1,11 +1,12 @@
+from testDB.views import *
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from testdb.views import *
+from testDB.views import *
 
 router = DefaultRouter()
-router.register(r'todo', TodoModelViewSet)
+router.register(r'testInfo', testInfoModelViewSet)
 
 urlpatterns = [
-    path('status_check/', status_check, name="status_check"),
-    path('', include(router.urls))
+    path('status_check/', status_check),
+    path('', include(router.urls)),
 ]
