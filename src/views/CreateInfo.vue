@@ -1,52 +1,60 @@
 <template>
-    <div class="login-box">
-        <h2>테스트 만들기</h2>
-        <form>
-          <div class="user-box">
-            <input type="text" name="" required="">
-            <label>이름</label>
-          </div>
-          <div class="user-box">
-            <input type="password" name="" required="">
-            <label>테스트 명</label>
-          </div>
-          <div class="user-box">
-            <input type="password" name="" required="">
-            <label>만든 이</label>
-          </div>
-        </form>
+    <div class="container right-panel-active">
+        <!-- Sign Up -->
+        <div class="container__form container--signup">
+            <div class="form" id="form1">
+                <h2 class="form__title">심리 테스트</h2>
+                <input v-model="author" type="text" placeholder="만든이" class="input" />
+                <input v-model="title" type="text" placeholder="테스트 이름" class="input" />
+                <textarea v-model="description" placeholder="테스트 설명" class="input textarea"></textarea>
+                <button @click="sendForm" class="btn">결과 만들기</button>
+            </div>
+        </div>
+    
+        <!-- Overlay -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn"><p class="p_write">이미지를 고르세요</p> <input type="file"></button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
-<style lang="css" src="@/css/createInfo.css" scoped>
+<style src="@/css/createInfo.css">
 </style>
 
 <script>
-    import axios from "axios";
-
-    let url = "http://localhost:8000/api/testInfo";
+    import axios from 'axios';
+    let url = "http://localhost:8000/api/testInfo/";
 
     export default {
         name: 'CreateInfo',
         data: () => {
             return {
-                testInfo: []
+                title: "",
+                author: "",
+                description: "",
             };
         },
-        mounted() {
+        methods: {
+            sendForm(){
+            console.log(this.$data);
             axios({
-                method: "GET",
-                url: url
+                method: "POST",
+                url: url,
+                data: this.$data
             })
             .then(response => {
-                this.testInfo = response.data;
+                alert("Success", response);
             })
-            .catch(response => {
-                alert('데이터를 받아오기를 실패했습니다.', response);
-            })
-        },
-        methods: {
-            getTestInfo: function() {},
+            .catch(error => {
+                console.log(error.response);
+            });
+            }
         }
     }
 </script>

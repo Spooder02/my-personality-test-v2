@@ -34,6 +34,11 @@ const routes = [
     path: '/create-testinfo',
     name: 'create-testinfo',
     component: require('@/views/CreateInfo.vue').default
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: require('@/views/TestView.vue').default
   }
 ]
 

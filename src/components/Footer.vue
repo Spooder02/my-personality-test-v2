@@ -10,39 +10,7 @@
     </footer>
 </template>
 
-<style scoped>
-  @import '@/css/bulma.css';
-  
-  footer {
-    background-color: #E6E6E6;
-    padding-top: 0px;
-    bottom: 0;
-  }
-
-  .write{
-      text-align: center;
-      font-size: 18px;
-      font-family: sans-serif;
-  }
-
-  .write2 {
-      text-align: center;
-      font-size: 18px;
-      font-family: sans-serif;
-      padding-bottom: 30px;
-  }
-
-
-  .dankook{
-      width: 100px;
-      margin-right: 5px;
-  }
-
-  .item{
-      padding-top: 8px;
-      display: block;
-      text-align: center;
-  }
+<style scoped src="@/css/bulma.css">
 </style>
 
 <script>
