@@ -21,7 +21,7 @@
 <script>
     import axios from "axios";
 
-    let url = "http://localhost:8000/api/testInfo";
+    let url = "http://localhost:8000/api/testInfo/";
     import Card from '@/components/Card.vue'
     export default {
         name: 'personality-tests',

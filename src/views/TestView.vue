@@ -41,7 +41,7 @@
 	
 
 	<div class="submit">
-		<button>제출 하기</button>
+		<button>제출하기</button>
 	</div>
 </template>
 

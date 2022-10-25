@@ -49,7 +49,8 @@
                 data: this.$data
             })
             .then(response => {
-                alert("Success", response);
+                alert("등록에 성공했습니다", response);
+                window.location.href="http://localhost:8080/personality-tests";
             })
             .catch(error => {
                 console.log(error.response);
